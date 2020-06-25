@@ -26,10 +26,16 @@ dependencies:
     sdk: flutter
   flutter_hooks: ^0.10.0
   hooks_riverpod: ^0.1.0
+  freezed_annotation:
+  uuid: ^2.1.0
+  state_notifier:
 
 dev_dependencies:
+  build_runner:
+  freezed:
   flutter_test:
     sdk: flutter
+  mockito: ^4.1.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
