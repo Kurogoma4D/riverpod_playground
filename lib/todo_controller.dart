@@ -38,4 +38,11 @@ class TodoController extends StateNotifier<List<Todo>> {
   void remove(Todo target) {
     state = state.where((todo) => todo.id != target.id).toList();
   }
+
+  void addAll(List<Todo> children) {
+    state = [
+      ...state,
+      ...children,
+    ];
+  }
 }
